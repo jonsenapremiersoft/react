@@ -1,4 +1,7 @@
-# Desafio
+# Desafio:
+
+1. Crie um array com uma lista de produtos
+2. Utilize essa lista para renderizar os <ProductCard> na Home
 
 ```jsx
 import React from 'react';
