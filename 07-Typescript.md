@@ -1,8 +1,6 @@
 # Introdução ao TypeScript no React
 
-## Estrutura do Projeto
-
-O Vite cria uma estrutura moderna e limpa:
+## Estrutura do Projeto (criado com create-next-app)
 
 ```
 my-next-app/
