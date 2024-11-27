@@ -1,32 +1,19 @@
 # Introdução ao TypeScript no React
 
-## Criando um Projeto com Vite
-
-```bash
-# Cria um novo projeto React + TypeScript usando Vite
-npm create vite@latest my-react-app -- --template react-ts
-
-# Instala dependências
-cd my-react-app
-npm install
-
-# Inicia o servidor de desenvolvimento
-npm run dev
-```
-
 ## Estrutura do Projeto
 
 O Vite cria uma estrutura moderna e limpa:
 
 ```
-my-react-app/
+my-next-app/
 ├── src/
-│   ├── App.tsx           # Componente principal
-│   ├── main.tsx         # Ponto de entrada
-│   └── vite-env.d.ts    # Declarações de tipos
-├── public/              # Arquivos estáticos
-├── index.html          # HTML principal
-└── package.json        # Dependências e scripts
+│   ├── app/                 # Diretório do App Router
+│   │   ├── page.tsx        # Página inicial
+│   │   ├── layout.tsx      # Layout raiz
+│   │   └── globals.css     # Estilos globais
+│   └── components/         # Componentes reutilizáveis
+├── public/                 # Arquivos estáticos
+└── package.json           # Dependências e scripts
 ```
 
 ## Componentes com TypeScript
