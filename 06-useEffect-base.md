@@ -157,7 +157,7 @@ function BuscadorDados() {
     async function buscarDados() {
       try {
         setCarregando(true);
-        const response = await fetch('https://api.exemplo.com/dados', {
+        const response = await fetch('https://jsonplaceholder.typicode.com/todos', {
           signal: abortController.signal
         });
         const data = await response.json();
