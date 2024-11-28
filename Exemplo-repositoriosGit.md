@@ -1,5 +1,3 @@
-Vou guiar você na criação de um projeto Next.js com TypeScript e Tailwind, incluindo um template básico.
-
 # 1. Criar o Projeto
 
 ```bash
