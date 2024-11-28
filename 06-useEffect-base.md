@@ -1,4 +1,4 @@
-# useEffect no React: Um Guia Completo
+# Hook useEffect
 
 ## O que é o useEffect?
 O `useEffect` é um Hook fundamental do React que permite executar "efeitos colaterais" em componentes funcionais. Efeitos colaterais são operações que podem afetar outros componentes e não podem ser realizadas durante a renderização, como:
