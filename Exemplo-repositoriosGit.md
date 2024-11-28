@@ -163,3 +163,30 @@ Execute `npm run dev` e acesse http://localhost:3000 para ver seu projeto.
   </Link>
 </li>
 ```
+
+### Sobre o funcionamento do '_app.tsx'
+
+O `_app.tsx` é o componente raiz do Next.js que envolve todas as páginas. Vamos analisar suas props:
+
+```typescript
+function App({ Component, pageProps }: AppProps) {
+  // ...
+}
+```
+
+- `Component`: A página atual que está sendo renderizada (o componente correspondente ao URL)
+- `pageProps`: Props que são pré-carregadas para a página através de `getStaticProps` ou `getServerSideProps`
+
+Quando você navega para `/about`, por exemplo:
+- `Component` será o conteúdo de `pages/about.tsx`
+- Este conteúdo é renderizado dentro do `<Main>` em seu layout
+- O `Header` e `Footer` permanecem consistentes em todas as páginas
+
+O fluxo de renderização é:
+```
+_app.tsx
+  └── Header
+  └── Main
+      └── Component (página atual)
+  └── Footer
+```
