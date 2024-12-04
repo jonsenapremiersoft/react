@@ -1,4 +1,4 @@
-### Cadastro de Usuário com Validação e Persistência: Reack Hook Form + Zod
+## Cadastro de Usuário com Validação e Persistência: Reack Hook Form + Zod
 
 **Descrição**:  
 - Crie uma aplicação simples onde o usuário pode preencher um formulário de cadastro com nome, email, senha e data de nascimento.
