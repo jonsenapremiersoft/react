@@ -33,7 +33,7 @@ Execute os comandos para criar e configurar o projeto:
 ```bash
 npx create-next-app@latest user-registration --ts --use-npm --app  --tailwind
 cd user-registration
-npm install react-hook-form zod @hookform/resolvers postcss autoprefixer
+npm install react-hook-form zod @hookform/resolvers
 ```
 
 #### 2. **Estrutura do Projeto**
